@@ -1,0 +1,46 @@
+.navbar{
+    position:fixed;
+    top:0;
+    background-color: #749CB2;
+    height: 100px;
+    width: 100%;
+}
+
+.links{
+    height: 50px;
+    margin-top: 25px;
+    text-align: center;
+    width: 80%;
+    float: right;
+    background-color: #749CB2;
+}
+
+.linkBox{
+    margin: auto;
+    float: right;
+    display: flex;
+}
+
+.eachLink{
+    padding-top: 2%;
+}
+
+
+a{
+    color: #FFF;
+    font-family: 'Rubik', sans-serif;
+    float: center;
+    display: flex;
+    margin: auto;
+    margin-right: 80px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover{
+    color: green;
+}
+
+.logo{
+    margin-top: 0.8%;
+}
