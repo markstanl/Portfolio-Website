@@ -20,6 +20,5 @@ This is where I will give a general synopsis about myself
 
 
 ## Projects  
-### 20%  
-@TODO Finish setting up the specific project
-@TODO Debug hover effect to both, only have a thing rendered underneath the currently hovered box, and 2, allow the hover to continue working while hovering over the new div
+### 90%  
+@TODO Finish the final css touches
