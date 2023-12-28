@@ -10,9 +10,8 @@ This is the important source code for my react portfolio website I am working
 Contains a synopsis home page
 
 ## Resume 
-### 30%
-@TODO 1 Figure out how to get the pdf to load  
-@TODO 2 Make a download button to download the pdf to the computer
+### 95%
+@TODO Final CSS Steps
 
 ## About  
 ### 0%
@@ -21,6 +20,6 @@ This is where I will give a general synopsis about myself
 
 
 ## Projects  
-### 0%  
-@TODO 
-This is where I will be linking all of the projects I am making. It will likely
+### 20%  
+@TODO Finish setting up the specific project
+@TODO Debug hover effect to both, only have a thing rendered underneath the currently hovered box, and 2, allow the hover to continue working while hovering over the new div
