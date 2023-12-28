@@ -1,5 +1,5 @@
 # Portfolio Website  
-### 60%  
+### 75%  
 @TODO Figure out what happened with my npm audit because it fucked up all of my code
 This is the important source code for my react portfolio website I am working
 
