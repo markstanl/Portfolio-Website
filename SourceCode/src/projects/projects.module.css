@@ -1,0 +1,78 @@
+.barrier{
+    height: 100px;
+}
+
+.fileImage{
+    height: 70%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.outerProjectsBox{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 1000px;
+    margin-top: 50px;
+    margin-left: 475px;
+    background-color: #f5f5f5;
+    border-radius: 40px;
+}
+
+
+.projectBox{
+    display: flex;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    height:90px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 40px;
+    justify-content: left;
+    font-size: 30px;
+    color: #d7d7d7;
+}
+
+.hoverDiv {
+    height: 300px;
+    width: 90%;
+    margin-left: 5%;
+    justify-content: left;
+}
+
+.hoverText {
+    padding: 15px;
+    width: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+a{
+    padding: 10px;
+    width: auto;
+    font-size: 30px;
+    font-weight: bold;
+    color: #d7d7d7;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #57B2C7;
+}
+
+.hoverImage {
+    width: 50%;
+    height: 300px;
+    float: right;
+}
+
+.hoverText p1{
+    color: #d7d7d7;
+    text-align: center;
+}
+
+.projectBox:hover .hoverDiv {
+    display: block;
+}
