@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+}
+
+.barrier{
+    height: 100px;
+    width: 100%;
+}
+
+.aboutMeBoxLeft{
+    width: 55%;
+    height: 100%;
+    color: white;
+    text-align: left;
+}
+
+.aboutMeBoxLeft p, h1, h2, h3, h4, h5, h6{
+    margin-left: 45%;
+}
+
+.aboutMeBoxLeft h1{
+    font-size: 100px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.aboutMeBoxLeft h2{
+    margin-top: -7%;
+    font-size: 18px;
+    font-family: 'Shrikhand', serif;
+}
+
+.aboutMeBoxRight{
+    width: 45%;
+    height: 100%;
+    padding-top: 75px;
+    text-align: left;
+    color: white;
+}
+
+.aboutMeBoxRight p{
+    text-indent: 40px;
+    font-size: 30px;
+    padding-right: 20%;
+    padding-left: 10%;
+    font-family: 'Source Sans 3', sans-serif;
+    margin-top: 20px;
+}
+
+.boldSans{
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.aboutSocialLinks{
+    margin-left: 43.8%;
+}
+
+.iconStyle{ 
+    height: 30px;
+}

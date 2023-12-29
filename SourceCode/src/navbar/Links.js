@@ -9,7 +9,7 @@ export default function Links(){
         <div className={styles.linkBox}>
             {links.map((link, index) => (
             <body className={styles.eachLink} key={index}>
-                <a href={link.link} target="_self" rel="noreferrer">{link.title}</a>
+                <a href={link.link} target="_self" rel="noopener noreferrer">{link.title}</a>
             </body>
         ))}
         </div>

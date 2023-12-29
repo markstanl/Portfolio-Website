@@ -22,7 +22,7 @@ export default function ProjectsIndividual(){
                         onMouseLeave={() => setHoveredIndex(null)}
                     >
                         <img src={file} className={styles.fileImage} alt='file'/>
-                        <a href={projectText.githubLink} target='_blank'> {projectText.title} </a>
+                        <a href={projectText.githubLink} target='_blank' rel="noopener noreferrer"> {projectText.title} </a>
                     </div>
                     {/* This function uses the hook from earlier to conditionally load a div that only exists while hovering over the div*/}
                     {hoveredIndex === index && (

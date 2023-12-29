@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './homepage/Home.js';
 import Resume from './resume/Resume.js';
 import Projects from './projects/Projects.js';
-import About from './About.js';
-import PageNotFound from './PageNotFound.js';
+import About from './about/About.js';
+import PageNotFound from './pagenotfound/PageNotFound.js';
 
 export default function WebRoutes() {
     return (
