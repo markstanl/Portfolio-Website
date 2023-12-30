@@ -1,7 +1,10 @@
 # Portfolio Website  
-### 75%  
+### 60%  
 @TODO Final CSS touches
 
+##General Tasks
+@TODO 1 Implement a mobile friendly navbar, switch to something else if a certain phone size is reached
+@TODO 2, this would require a mobile friendly implementation of every aspect of the website, how exciting
 
 ## Home
 ### 90%
