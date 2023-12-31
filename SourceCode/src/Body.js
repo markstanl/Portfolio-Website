@@ -1,6 +1,7 @@
 import React from 'react';
-import styles from './body.module.css';
+import styles from './homepage/body.module.css';
 import WebRoutes from './WebRoutes';
+import {projectsText} from './projects/projectsText.js';
 
 export default function Body() {
     let backgroundHeight = '4054px';
@@ -12,7 +13,9 @@ export default function Body() {
         backgroundHeight = '100%';
     }
     else if(window.location.pathname === '/projects'){
-        backgroundHeight = '4054px';
+        backgroundHeight = `${(projectsText.length+1) * 100+500}px`
+        {/*  the *100 is for the height of each project, The +1 is for the header (as it is about 100px 
+        in height), and the +500 is for the height of the dropdown. */}
     }
     else if(window.location.pathname === '/about'){
         backgroundHeight = '4054px';

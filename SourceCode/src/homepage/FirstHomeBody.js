@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../body.module.css';
+import styles from './body.module.css';
 import mark1 from '../images/markpic5.jpg';
 import {bodytext} from '../javascriptarrays/bodytext.js';
 
@@ -13,6 +13,7 @@ export default function FirstHomeBody(){
                     <ul>
                         <li>{bodytext[0].l1}</li>
                         <li>{bodytext[0].l2}</li>
+                        <li>{bodytext[0].l3}</li>
                     </ul>
                 </div>
             </div>

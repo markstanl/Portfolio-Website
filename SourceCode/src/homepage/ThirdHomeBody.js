@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../body.module.css';
+import styles from './body.module.css';
 import mark3 from '../images/markpic3.jpg';
 import {bodytext} from '../javascriptarrays/bodytext.js';
 
@@ -15,6 +15,8 @@ export default function ThirdHomeBody(){
                 <ul>
                     <li>{bodytext[2].l1}</li>
                     <li>{bodytext[2].l2}</li>
+                    {bodytext[2].l3 && <li>{bodytext[2].l3}</li>}
+                    {bodytext[2].l4 && <li>{bodytext[2].l4}</li>}
                 </ul>
             </div> 
             <img src={mark3} className={styles.mark3} alt='mark intellectually standing by a tree'></img>

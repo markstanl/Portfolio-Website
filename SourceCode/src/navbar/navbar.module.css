@@ -2,40 +2,39 @@
     position:fixed;
     top:0;
     background-color: #749CB2;
-    height: 100px;
+    height: 16vh;
     width: 100%;
 }
 
 .links{
-    height: 50px;
-    margin-top: 15px;
+    height: 16vh;
+    margin-top: 4vh;
     text-align: center;
     justify-content: center;
-    width: 80%;
+    width: 60%;
     float: right;
-    background-color: #749CB2;
+    margin-right: 13%;
 }
 
 .linkBox{
     margin: auto;
     float: right;
     display: flex;
+    width: 70%;
+    font: 'Rubik', sans-serif;
 }
 
 .eachLink{
-    padding-top: 2%;
+    margin-left: 10%;
+    font: 'Rubik', sans-serif;
 }
 
+.firstLink{
+    margin-left: 0px;
+}
 
 .links a{
-    color: #FFF;
-    font-family: 'Rubik', sans-serif;
-    float: center;
-    display: flex;
-    margin: auto;
-    margin-right: 80px;
-    text-decoration: none;
-    font-size: 20px;
+    color: #FFFFFF;
 }
 
 .links a:hover{
@@ -44,5 +43,7 @@
 
 .logo{
     margin-top: 0.8%;
-    height: 80%;
+    height: 12vh;
+    float: left;
+    margin-left: 4%;
 }

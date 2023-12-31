@@ -1,0 +1,143 @@
+.background{
+     background-image: url(../images/tempbg.png);
+     margin-left: -250px;
+     height: 4054px;
+
+}
+
+.body{
+    height: 600px;
+    width: 80%;
+    margin-left: 17%;
+}
+
+.body ul{
+    font-family: 'Inter', sans-serif;
+    list-style-position: inside;
+    text-align: left;
+    font-size: 30px;
+}
+
+.body li{
+    margin-bottom: 1.4%;
+}
+
+.body h1{
+    font-size: 35px;
+}
+
+.bigBody{
+    height: 800px;
+    width: 90%;
+    margin-left: 22.8%;
+    padding-top: 50px;
+    position: absolute;
+
+}
+
+.textBox{
+    height: 60%;
+    background-color: #D9D9D9;
+    width: 50%;
+    float: right;
+    margin-top: 10%;
+    border-radius: 40px;
+}
+
+.textBox h1{
+    text-align: center;
+    margin-right: 200%;
+}
+
+.textBox ul{
+    text-align: left;
+    font-size: 30px;
+}
+
+.secondTextBox{
+    height: 60%;
+    background-color: #D9D9D9;
+    width: 90%;
+    float: left;
+    margin-top: 10%;
+    border-radius: 40px;
+    font-size: 30px;
+}
+
+.secondTextBoxText{
+    float: left;
+    width: 60%;
+}
+
+.secondTextBoxText h1{
+    text-align: center;
+    margin-right: 40%;
+    font-size: 40px;
+}
+
+.thirdTextBox{
+    height: 60%;
+    background-color: #D9D9D9;
+    width: 90%;
+    float: right;
+    margin-top: 10%;
+    border-radius: 40px;
+    position: absolute;
+    margin-left: 10%
+
+}
+
+.thirdTextBox h1{
+    text-align: center;
+    margin-left: 10%;
+    font-size: 40px;
+}
+
+.thirdTextBox ul{
+    width: 60%;
+    float: right;
+    font-family: 'Inter', sans-serif;
+    list-style-position: inside;
+    text-align: left;
+    font-size: 30px;
+}
+
+.thirdTextBox li{
+    margin-bottom: 1.4%;
+}
+
+.circle{
+    height: 550px;
+    width: 550px;
+    border-radius: 100%;
+    position: absolute;
+    border: 10px solid #749CB2;
+    margin-left: 2.9%;
+    margin-top: -2%;
+}
+
+.mark1{
+    margin-top: 10%;
+    height: 60%;
+    border-radius: 180px;
+}
+
+.mark2{
+    margin-top: 2.5%;
+    height: 80%;
+    border-radius: 180px;
+}
+
+.invisibleBarrier{
+    height:100%;
+    width: 300px;
+    float: left;
+}
+
+.mark3{
+    margin-top: 0%;
+    margin-left: -45%;
+    height: 60%;
+    border-radius: 800px;
+    position: absolute;
+}
