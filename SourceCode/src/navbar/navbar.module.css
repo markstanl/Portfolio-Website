@@ -4,6 +4,7 @@
     background-color: #749CB2;
     height: 16vh;
     width: 100%;
+    color: white;
 }
 
 .links{
@@ -35,6 +36,9 @@
 
 .links a{
     color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-decoration: none;
 }
 
 .links a:hover{

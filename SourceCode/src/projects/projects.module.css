@@ -50,7 +50,7 @@
     text-align: center;
 }
 
-a{
+.projectBox a{
     padding: 10px;
     width: auto;
     font-size: 30px;
@@ -59,7 +59,7 @@ a{
     text-decoration: none;
 }
 
-a:hover{
+.projectBox a:hover{
     color: #57B2C7;
 }
 
