@@ -5,10 +5,10 @@ import AboutSocialLinks from './aboutImageAssets/AboutSocialLinks';
 export default function About({isMobile, windowWidth}){
 
     const styleWindow = () => {
-        if(windowWidth < 340){
+        if(windowWidth < 380){
             return {marginLeft: '60px'}
         }
-        else if (windowWidth < 515){
+        else if (windowWidth < 530){
             return {marginLeft: '50px'}
         }
         else {
@@ -17,7 +17,7 @@ export default function About({isMobile, windowWidth}){
     }
 
     const styleSizeH1 = () => {
-        if(windowWidth < 340){
+        if(windowWidth < 380){
             return {fontSize: '60px'}
         }
         else if(windowWidth < 515){

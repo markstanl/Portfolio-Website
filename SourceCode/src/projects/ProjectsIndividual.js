@@ -20,6 +20,7 @@ export default function ProjectsIndividual(){
                         style={{backgroundColor: projectText.backgroundColor}}
                         onMouseEnter={() => setHoveredIndex(index)}
                         onMouseLeave={() => setHoveredIndex(null)}
+                        key={index}
                     >
                         <img src={file} className={styles.fileImage} alt='file'/>
                         <a href={projectText.githubLink} target='_blank' rel="noopener noreferrer"> {projectText.title} </a>

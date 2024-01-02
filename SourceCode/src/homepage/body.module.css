@@ -1,14 +1,14 @@
 .background{
      background-image: url(../images/tempbg.png);
-     margin-left: -250px;
      height: 4054px;
+     background-size: cover;
 
 }
 
 .body{
     height: 600px;
-    width: 80%;
-    margin-left: 17%;
+    width: 90%;
+    margin-left:5%;
 }
 
 .body ul{
@@ -29,7 +29,7 @@
 .bigBody{
     height: 800px;
     width: 90%;
-    margin-left: 22.8%;
+    margin-left: 5%;
     padding-top: 50px;
     position: absolute;
 
