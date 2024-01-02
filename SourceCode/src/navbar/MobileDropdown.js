@@ -1,16 +1,16 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import styles from './mobilenavbar.module.css';
 import { Cross as Hamburger } from 'hamburger-react';
 import MobileLinks from './MobileLinks';
 
 export default function MobileDropdown() {
-    const [isOpen, setOpen] = React.useState(false);
-    const [windowHeight, setWindowHeight] = React.useState(window.innerHeight);
-    const [hamburgerSize, setHamburgerSize] = React.useState(windowHeight < 425 ? windowHeight/2.5 : 400);
+    const [isOpen, setOpen] = useState(false);
+    const [windowHeight, setWindowHeight] = useState(window.innerHeight);
+    const [hamburgerSize, setHamburgerSize] = useState(windowHeight < 425 ? windowHeight/2.5 : 400);
 
     console.log(windowHeight);
 
-    React.useEffect(() => {
+    useEffect(() => {
         function handleResize() {
             const newWindowHeight = window.innerHeight;
             setWindowHeight(newWindowHeight);

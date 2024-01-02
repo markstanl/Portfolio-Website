@@ -6,15 +6,17 @@ import Projects from './projects/Projects.js';
 import About from './about/About.js';
 import PageNotFound from './pagenotfound/PageNotFound.js';
 
-export default function WebRoutes() {
+
+export default function WebRoutes({isMobile, windowWidth}) {
+    console.log(isMobile);
     return (
         <Router>
             <Routes>
-                <Route path='/' element={<Home />} />
-                <Route path='/resume' element={<Resume />} />
-                <Route path='/projects' element={<Projects />} />
-                <Route path='/about' element={<About />} />
-                <Route path='*' element={<PageNotFound />} />
+                <Route path='/' element={<Home isMobile={isMobile}/>} />
+                <Route path='/resume' element={<Resume isMobile={isMobile}/>} />
+                <Route path='/projects' element={<Projects isMobile={isMobile}/>} />
+                <Route path='/about' element={<About isMobile={isMobile} windowWidth={windowWidth} />} />
+                <Route path='*' element={<PageNotFound isMobile={isMobile}/>} />
             </Routes>
         </Router>
     );

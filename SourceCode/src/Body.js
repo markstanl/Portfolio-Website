@@ -3,7 +3,7 @@ import styles from './homepage/body.module.css';
 import WebRoutes from './WebRoutes';
 import {projectsText} from './projects/projectsText.js';
 
-export default function Body(isMobile) {
+export default function Body({isMobile}) {
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
     useEffect(() => {
@@ -39,7 +39,7 @@ export default function Body(isMobile) {
     
     return(
         <div className={styles.background} style={{height: backgroundHeight}}>
-            <WebRoutes />
+            <WebRoutes isMobile={isMobile} windowWidth={windowWidth}/>
         </div>
     );
 }

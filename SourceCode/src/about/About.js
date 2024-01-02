@@ -2,18 +2,44 @@ import React from 'react';
 import styles from './about.module.css';
 import AboutSocialLinks from './aboutImageAssets/AboutSocialLinks';
 
-export default function About(){
+export default function About({isMobile, windowWidth}){
+
+    const styleWindow = () => {
+        if(windowWidth < 340){
+            return {marginLeft: '60px'}
+        }
+        else if (windowWidth < 515){
+            return {marginLeft: '50px'}
+        }
+        else {
+            return {}
+        }
+    }
+
+    const styleSizeH1 = () => {
+        if(windowWidth < 340){
+            return {fontSize: '60px'}
+        }
+        else if(windowWidth < 515){
+            return {fontSize: '80px'}
+        }
+        else {
+            return {}
+        }
+    }
+
+    console.log(windowWidth);
 
     return(
         <div>
             <div className={styles.barrier}></div>
-            <div className={styles.container}>
-                <div className={styles.aboutMeBoxLeft}> 
-                    <h1>Mark Stanley</h1>
+            <div className={!isMobile ? styles.container : styles.mobileContainer} style={styleWindow()} >
+                <div className={!isMobile ? styles.aboutMeBoxLeft : styles.aboutMeBoxMobile} > 
+                <h1 style={styleSizeH1()}>Mark Stanley</h1>
                     <h2>student looking for a software engineer internship</h2>
                     <AboutSocialLinks />
                 </div>
-                <div className={styles.aboutMeBoxRight}>
+                <div className={!isMobile ? styles.aboutMeBoxRight : styles.aboutMeBoxMobile}>
                     <p>            My name is <span className={styles.boldSans}>Mark Stanley. </span> I am a current 
                     undergraduate student at the <span className={styles.boldSans}>University of Wisconsin-Madison,</span> 
                     where I am studying  <span className={styles.boldSans}>Computer Science and Mathematics.</span></p>

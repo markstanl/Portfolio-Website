@@ -7,13 +7,13 @@ import linkedinHover from './LinkedinHover.png';
 import email from './Email.png';
 import emailHover from './EmailHover.png';
 
-export default function AboutSocialLinks() {
+export default function AboutSocialLinks({isMobile}) {
     const [gitHoverState, setGitHover] = useState(false);
     const [linkedinHoverState, setLinkedinHover] = useState(false);
     const [emailHoverState, setEmailHover] = useState(false);
 
     return(
-        <div className={styles.aboutSocialLinks}>
+        <div className={isMobile? styles.aboutSocialLinksMobile : styles.aboutSocialLinks}>
             <a href="https://www.linkedin.com/in/mark-stanley-ba6996282/" 
             target="_blank" 
             rel="noopener noreferrer" 

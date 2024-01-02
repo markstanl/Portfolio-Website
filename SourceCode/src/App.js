@@ -2,7 +2,6 @@ import './App.css';
 import React, {useState, useEffect} from 'react';
 import Navbar from './navbar/Navbar';
 import Body from './Body';
-import TempMobileExperience from './TempMobileExperience';
 
 function App() {
 
