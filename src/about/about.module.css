@@ -3,13 +3,12 @@
 }
 
 .mobileContainer{
-    margin-top: -15vh;
     width: 100%;
     display: block;
 }
 
 .barrier{
-    height: 18vh;
+    height: 16vh;
     width: 100%;
 }
 
