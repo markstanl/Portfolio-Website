@@ -5,6 +5,7 @@
     height: 16vh;
     width: 100%;
     color: white;
+    align-items: center;
 }
 
 .links{
@@ -46,7 +47,7 @@
 }
 
 .logo{
-    margin-top: 0.8%;
+    margin-top: 2vh;
     height: 12vh;
     float: left;
     margin-left: 4%;

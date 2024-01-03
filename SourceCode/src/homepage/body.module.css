@@ -2,7 +2,8 @@
      background-image: url(../images/tempbg.png);
      height: 4054px;
      background-size: cover;
-
+     background-size: 130%;
+     background-position: center;
 }
 
 .body{
@@ -46,7 +47,8 @@
 
 .textBox h1{
     text-align: center;
-    margin-right: 200%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .textBox ul{

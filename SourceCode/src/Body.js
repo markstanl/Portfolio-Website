@@ -19,19 +19,19 @@ export default function Body({isMobile}) {
 
     let backgroundHeight = '4054px';
 
-    if(window.location.pathname === '/' && !isMobile){
-        backgroundHeight = '2100px';
+    if(window.location.pathname === '/'){
+        isMobile ? backgroundHeight = '115%' : backgroundHeight = '2100px';
     }
     else if(window.location.pathname === '/resume' && !isMobile){
-        backgroundHeight = '100%';
+        backgroundHeight = '105%';
     }
-    else if(window.location.pathname === '/projects' && !isMobile){
-        backgroundHeight = `${(projectsText.length+1) * 100+500}px`
+    else if(window.location.pathname === '/projects'){
+        backgroundHeight = `${(projectsText.length+1) * 100+500}px`;
         {/*  the *100 is for the height of each project, The +1 is for the header (as it is about 100px 
         in height), and the +500 is for the height of the dropdown. */}
     }
     else if(window.location.pathname === '/about' && !isMobile){
-        backgroundHeight = '4054px';
+        backgroundHeight = '105%';
     }
 
     console.log(isMobile);
