@@ -1,0 +1,35 @@
+.invisibleBarrier{
+    height: 18vh;
+    width: 100%;
+}
+
+.mark1{
+    margin-left: auto;
+    margin-right: auto;
+    height: 50vh;
+    border-radius: 100%;
+}
+
+.body{
+    margin-top: 3%;
+    width: 80%;
+    height: auto; /* To be auto*/
+    padding: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+}
+
+.body h1{
+    margin-top: 0px;
+}
+
+.body ul{
+    text-align: left;
+    font-size: 20px;
+}
+
+.body li{
+    font-family: 'Raleway', sans-serif;
+}
