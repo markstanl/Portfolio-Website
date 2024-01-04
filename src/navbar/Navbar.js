@@ -6,6 +6,8 @@ import MobileDropdown from './MobileDropdown';
 
 function Navbar({ isMobile, windowHeight, windowWidth }) {
 
+    let initialWindowHeight = useRef(windowHeight);
+
     const reduceImage = () => {
         return (windowHeight/12*2.467 > windowWidth/2.25)
         /* The logo is 269x109 px*/
@@ -18,7 +20,7 @@ function Navbar({ isMobile, windowHeight, windowWidth }) {
     console.log(reduceImage());
 
     return(
-        <div className={reduceImage() ? styles.navbarReduced :styles.navbar}>
+        <div className={reduceImage() ? styles.navbarReduced :styles.navbar} style={{height: `${initialWindowHeight*.16}px`}}>
             <img className={reduceImage() ? styles.reducedLogo : styles.logo } style={reduceImage() ? {width: '50vw'} : {height: '12vh'}} src={logo} alt="MS" />
             {isMobile ? <MobileDropdown windowHeight={windowHeight}/> : <Jumpto windowHeight={windowHeight}/>}
         </div>

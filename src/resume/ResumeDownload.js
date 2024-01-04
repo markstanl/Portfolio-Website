@@ -1,7 +1,8 @@
 import React from 'react';
 import styles from './resume.module.css';
-import pdfURL from './Resume.pdf'; 
 import pngImg from './downloadIcon.png';
+
+const pdfURL = process.env.PUBLIC_URL + '/Resume.pdf';
 
 export default function ResumeDownload() {
     return(

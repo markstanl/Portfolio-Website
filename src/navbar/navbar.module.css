@@ -2,7 +2,6 @@
     position:fixed;
     top:0;
     background-color: #749CB2;
-    height: 16vh;
     width: 100%;
     color: white;
     align-items: center;
@@ -12,7 +11,6 @@
     position:fixed;
     top:0;
     background-color: #749CB2;
-    height: 16vh;
     width: 100%;
     color: white;
     display: flex; /* Add this */
