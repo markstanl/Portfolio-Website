@@ -23,7 +23,7 @@ export default function Body({isMobile}) {
         isMobile ? backgroundHeight = '115%' : backgroundHeight = '2100px';
     }
     else if(window.location.pathname === '/resume'){
-        backgroundHeight = '110%';
+        backgroundHeight = '800px';
     }
     else if(window.location.pathname === '/projects'){
         backgroundHeight = `${(projectsText.length+1) * 100+500}px`;
@@ -31,7 +31,7 @@ export default function Body({isMobile}) {
         in height), and the +500 is for the height of the dropdown. */
     }
     else if(window.location.pathname === '/about'){
-        isMobile? backgroundHeight = '850px' : backgroundHeight = '105%';
+        isMobile? backgroundHeight = '1000px' : backgroundHeight = '105%';
     }
 
     console.log(isMobile);

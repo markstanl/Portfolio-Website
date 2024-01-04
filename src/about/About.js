@@ -12,7 +12,7 @@ export default function About({isMobile, windowWidth}){
             return {marginLeft: '50px'}
         }
         else {
-            return {}
+            return {marginLeft: '50px'}
         }
     }
 
@@ -36,7 +36,7 @@ export default function About({isMobile, windowWidth}){
             <div className={!isMobile ? styles.container : styles.mobileContainer} style={styleWindow()} >
                 <div className={!isMobile ? styles.aboutMeBoxLeft : styles.aboutMeBoxMobile} > 
                 <h1 style={styleSizeH1()}>Mark Stanley</h1>
-                    <h2>student looking for a software engineer internship</h2>
+                    <h2>student searching for a software engineer internship</h2>
                     <AboutSocialLinks />
                 </div>
                 <div className={!isMobile ? styles.aboutMeBoxRight : styles.aboutMeBoxMobile}>

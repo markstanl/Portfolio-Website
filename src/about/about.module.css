@@ -29,7 +29,7 @@
 }
 
 .aboutMeBoxMobile h1{
-    margin-bottom: -5vh;
+    margin-bottom: -3vh;
 }
 
 .aboutMeBoxMobile {
@@ -55,6 +55,10 @@
     font-size: 25px;
     margin-left: 35%;
     
+}
+
+.aboutMeBoxMobileText h2{
+    font-family: 'Shrikhand', serif;
 }
 
 .aboutMeBoxLeft h1, .aboutMeBoxMobile h1{

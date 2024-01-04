@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import { pdfjs, Document, Page } from 'react-pdf';
 import pdfURL from './Resume.pdf'; 
 
@@ -6,10 +6,15 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 export default function ResumeRender({isMobile, windowWidth}) {
 
-    console.log(2.17*windowWidth*-21.09);
+    const [height, setHeight] = useState(isMobile ? windowWidth/0.8*8.5/10 : 110);
+
+    useEffect(() => {
+        setHeight(isMobile ? windowWidth/0.8*8.5/10 : 110);
+    }, [windowWidth]);
+
 
     return (
-        <div style={{ display: 'flex', justifyContent: 'center', height: isMobile? `${windowWidth/5.5}vh` : '110vh',overflow: 'hidden', marginLeft: 'auto', marginRight: 'auto'}}>
+        <div style={{ display: 'flex', justifyContent: 'center', height: `${height}px`,overflow: 'hidden', marginLeft: 'auto', marginRight: 'auto'}}>
             <Document file={pdfURL}>
                 <Page pageNumber={1} scale={isMobile? windowWidth/700 : 1} />
             </Document>

@@ -8,6 +8,17 @@
     align-items: center;
 }
 
+.navbarReduced{
+    position:fixed;
+    top:0;
+    background-color: #749CB2;
+    height: 16vh;
+    width: 100%;
+    color: white;
+    display: flex; /* Add this */
+    align-items: center; /* Add this */
+}
+
 .links{
     height: 16vh;
     margin-top: 4vh;
@@ -48,7 +59,11 @@
 
 .logo{
     margin-top: 2vh;
-    height: 12vh;
     float: left;
     margin-left: 4%;
+}
+
+.reducedLogo{
+    margin-right: 20%;
+    margin-left: 2%;
 }

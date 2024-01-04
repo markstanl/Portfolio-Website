@@ -3,7 +3,7 @@ import styles from './body.module.css';
 import mark3 from '../images/markpic3.jpg';
 import {bodytext} from '../javascriptarrays/bodytext.js';
 
-export default function ThirdHomeBody(){
+export default function ThirdHomeBody({windowWidth}){
 
 
     return(
@@ -12,7 +12,7 @@ export default function ThirdHomeBody(){
             <div className={styles.thirdTextBox}>
                 <h1>{bodytext[2].title}</h1>
                 <div className={styles.invisibleBarrier}></div>
-                <ul>
+                <ul style={windowWidth < 1500 ? {width: '48%'} : {width: '60%'}}>
                     <li>{bodytext[2].l1}</li>
                     <li>{bodytext[2].l2}</li>
                     {bodytext[2].l3 && <li>{bodytext[2].l3}</li>}

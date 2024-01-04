@@ -13,7 +13,7 @@ export default function WebRoutes({isMobile, windowWidth}) {
     return (
         <Router>
             <Routes>
-                <Route path='/' element={<Home isMobile={isMobile}/>} />
+                <Route path='/' element={<Home isMobile={isMobile} windowWidth={windowWidth}/>} />
                 <Route path='/resume' element={<Resume isMobile={isMobile} windowWidth={windowWidth}/>} />
                 <Route path='/projects' element={isMobile ? <ProjectsMobile windowWidth={windowWidth} /> : <Projects isMobile={isMobile}/>} />
                 <Route path='/about' element={<About isMobile={isMobile} windowWidth={windowWidth} />} />

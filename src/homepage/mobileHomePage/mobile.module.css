@@ -8,6 +8,15 @@
     margin-right: auto;
     height: 50vh;
     border-radius: 100%;
+    margin-top: 15%;
+}
+
+.otherMark{
+    margin-left: auto;
+    margin-right: auto;
+    height: 50vh;
+    border-radius: 100%;
+    margin-top: 15%;
 }
 
 .body{

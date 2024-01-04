@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="App">
         <Body isMobile={isMobile}/>
-        <Navbar isMobile={isMobile} windowHeight={windowHeight} />
+        <Navbar isMobile={isMobile} windowHeight={windowHeight} windowWidth={windowWidth} />
         {/*windowWidth < 1080 && <TempMobileExperience />*/}
     </div>
   );

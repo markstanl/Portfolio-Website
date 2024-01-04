@@ -19,7 +19,7 @@ export default function MobileHome() {
                     <li>{bodytext[0].l3}</li>
                 </ul>
             </div>
-            <img src = {mark2} className={styles.mark1} alt='Mark'/>
+            <img src = {mark2} className={styles.otherMark} alt='Mark'/>
             <div className = {styles.body}>
                 <h1>{bodytext[1].title}</h1>
                 <ul>
@@ -28,7 +28,7 @@ export default function MobileHome() {
                     <li>{bodytext[1].l3}</li>
                 </ul>
             </div>
-            <img src = {mark3} className={styles.mark1} alt='Mark'/>
+            <img src = {mark3} className={styles.otherMark} alt='Mark'/>
             <div className = {styles.body}>
                 <h1>{bodytext[2].title}</h1>
                 <ul>

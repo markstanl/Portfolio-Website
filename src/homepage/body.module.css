@@ -7,7 +7,7 @@
 }
 
 .body{
-    height: 600px;
+    height: 620px;
     width: 90%;
     margin-left:5%;
 }
@@ -21,6 +21,7 @@
 
 .body li{
     margin-bottom: 1.4%;
+        font-family: 'Raleway', sans-serif;
 }
 
 .body h1{
@@ -37,7 +38,7 @@
 }
 
 .textBox{
-    height: 60%;
+    height: 65%;
     background-color: #D9D9D9;
     width: 50%;
     float: right;
@@ -54,6 +55,7 @@
 .textBox ul{
     text-align: left;
     font-size: 30px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .secondTextBox{
@@ -77,6 +79,10 @@
     font-size: 40px;
 }
 
+.secondTextBoxText ul{
+    font-family: 'Raleway', sans-serif;
+}
+
 .thirdTextBox{
     height: 60%;
     background-color: #D9D9D9;
@@ -90,15 +96,13 @@
 }
 
 .thirdTextBox h1{
-    text-align: center;
-    margin-left: 10%;
-    font-size: 40px;
+    float: right;
+    margin-right: 30%;
 }
 
 .thirdTextBox ul{
-    width: 60%;
     float: right;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Raleway', sans-serif;
     list-style-position: inside;
     text-align: left;
     font-size: 30px;
@@ -132,7 +136,7 @@
 
 .invisibleBarrier{
     height:100%;
-    width: 300px;
+    width: 400px;
     float: left;
 }
 
