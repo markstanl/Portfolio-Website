@@ -12,7 +12,7 @@ export default function About({isMobile, windowWidth}){
             return {marginLeft: '50px'}
         }
         else {
-            return {marginLeft: '50px'}
+            return {marginLeft: '250px'}
         }
     }
 
@@ -33,13 +33,13 @@ export default function About({isMobile, windowWidth}){
     return(
         <div>
             <div className={styles.barrier}></div>
-            <div className={!isMobile ? styles.container : styles.mobileContainer} style={styleWindow()} >
-                <div className={!isMobile ? styles.aboutMeBoxLeft : styles.aboutMeBoxMobile} > 
+            <div className={!isMobile ? styles.container : styles.mobileContainer} >
+                <div className={!isMobile ? styles.aboutMeBoxLeft : styles.aboutMeBoxMobile} style={styleWindow()}> 
                 <h1 style={styleSizeH1()}>Mark Stanley</h1>
                     <h2>student searching for a software engineer internship</h2>
                     <AboutSocialLinks />
                 </div>
-                <div className={!isMobile ? styles.aboutMeBoxRight : styles.aboutMeBoxMobile}>
+                <div className={!isMobile ? styles.aboutMeBoxRight : styles.aboutMeBoxMobile} style={isMobile ? styleWindow() : {}}>
                     <p>            My name is <span className={styles.boldSans}>Mark Stanley. </span> I am a current 
                     undergraduate student at the <span className={styles.boldSans}>University of Wisconsin-Madison,</span> 
                     where I am studying  <span className={styles.boldSans}>Computer Science and Mathematics.</span></p>

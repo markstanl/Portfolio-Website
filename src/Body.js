@@ -20,10 +20,10 @@ export default function Body({isMobile}) {
     let backgroundHeight = '4054px';
 
     if(window.location.pathname === '/'){
-        isMobile ? backgroundHeight = '115%' : backgroundHeight = '2100px';
+        isMobile ? (windowWidth < 300? backgroundHeight = '2500px' : backgroundHeight = '2200px') : backgroundHeight = '2100px';
     }
     else if(window.location.pathname === '/resume'){
-        isMobile ? backgroundHeight = `${windowWidth/0.8*8.5/10+200}px` : backgroundHeight = '1300px';
+        isMobile ? backgroundHeight = `${windowWidth/0.8*8.5/10+200}px` : backgroundHeight = '1500px';
     }
     else if(window.location.pathname === '/projects'){
         backgroundHeight = `${(projectsText.length+1) * 100+500}px`;
