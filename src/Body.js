@@ -23,7 +23,7 @@ export default function Body({isMobile}) {
         isMobile ? backgroundHeight = '115%' : backgroundHeight = '2100px';
     }
     else if(window.location.pathname === '/resume'){
-        backgroundHeight = '800px';
+        isMobile ? backgroundHeight = `${windowWidth/0.8*8.5/10+200}px` : backgroundHeight = '1300px';
     }
     else if(window.location.pathname === '/projects'){
         backgroundHeight = `${(projectsText.length+1) * 100+500}px`;
