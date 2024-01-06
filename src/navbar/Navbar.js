@@ -28,7 +28,7 @@ function Navbar({ isMobile, windowHeight, windowWidth }) {
                 src={logo} 
                 alt="MS" 
             />            
-            {isMobile ? <MobileDropdown windowHeight={windowHeight}/> : <Jumpto windowHeight={windowHeight}/>}
+            {isMobile ? <MobileDropdown windowHeight={windowHeight}/> : <Jumpto windowHeight={windowHeight} windowWidth={windowWidth}/>}
         </div>
     )
 }
