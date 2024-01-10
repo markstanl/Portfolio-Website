@@ -1,9 +1,6 @@
 import React, {useState, useEffect} from 'react';
-import ResumePNG from './Resume-1.png';
-//import { pdfjs, Document, Page } from 'react-pdf';
-//const pdfURL = process.env.PUBLIC_URL + '/Resume.pdf';
-
-//pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+import ResumePNG from './ResumePNG.png';
+const pdfURL = process.env.PUBLIC_URL + '/Resume.pdf';
 
 export default function ResumeRender({isMobile, windowWidth}) {
 
