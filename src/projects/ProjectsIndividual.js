@@ -4,11 +4,13 @@ import styles from './projects.module.css';
 import file from './fileImage.png';
 import image1 from './linearalgebra.jpg';
 import image2 from './websiteAesthetic.jpg';
+import image3 from './blackjack.jpg';
 
 export default function ProjectsIndividual(){
     const [hoveredIndex, setHoveredIndex] = useState(null);
     projectsText[0].hoverImage = image1;
     projectsText[1].hoverImage = image2;
+    projectsText[2].hoverImage = image3;
 
     return(
         <div>

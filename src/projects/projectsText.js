@@ -3,7 +3,8 @@ export const projectsText = [
     hoverImageAlt:'some linear algebra functions', backgroundColor: '#A5402D', hoverBackgroundColor: '#8D6E70', linesOfCode: '1300', languages: 'Java', githubLink: 'https://github.com/markstanl/DeterminantCalculator'},
     {title: 'React Portfolio Website', hoverText: 'The website you are currently on was created using React. It is a single page application that uses React Router to navigate between pages. The website is hosted on AWS Amplify and the code is hosted on GitHub.',
      hoverImageAlt:'Website Image',backgroundColor: '#3891A6',  hoverBackgroundColor: '#CB9173', linesOfCode: '1200', languages: 'Javascript, JSX, HTML, CSS, JSON', githubLink: 'https://github.com/markstanl/Portfolio-Website'},
-    
+     {title: 'Python Blackjack Game', hoverText: 'Python blackjack game that uses object oriented programming. The game is played in the terminal. Later, I intend on adding data analytics, to confirm basic strategy charts.', 
+     hoverImageAlt: 'blackjack image by pexels', backgroundColor: '#A3A000', hoverBackgroundColor: '#A8CE50', linesOfCode: '750', languages: 'Python', githubLink: 'https://github.com/markstanl/blackjack-game' }
 
     ]   
 
