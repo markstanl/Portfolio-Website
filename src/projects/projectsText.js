@@ -1,5 +1,17 @@
 export const projectsText = [
   {
+    title: "GitHub Readme Philosophical Quotes",
+    hoverText:
+      "ExpressJS function hosted on Vercel that generates a random philosophical quote for your GitHub Readme. Use query parameters to customize your generated quote.",
+    hoverImageAlt: "Philsophical Quote",
+    backgroundColor: "#68b587",
+    hoverBackgroundColor: "#FFF",
+    linesOfCode: "800",
+    languages: "ExpressJS, Python",
+    githubLink:
+      "https://github.com/markstanl/github-readme-philosophical-quotes",
+  },
+  {
     title: "Web Demos",
     hoverText:
       "3D Island, Modern Portfolios, Clones, my web demos are a collection of web development projects. I use React, GSAP, and Tailwind CSS to create these projects.",
@@ -43,16 +55,6 @@ export const projectsText = [
     linesOfCode: "750",
     languages: "Python",
     githubLink: "https://github.com/markstanl/blackjack-game",
-  },
-  {
-    title: "Philosophical Quotes API",
-    hoverText: "Small Python API that returns a random philosophical quote",
-    hoverImageAlt: "Philsophical Quote",
-    backgroundColor: "#68b587",
-    hoverBackgroundColor: "#0a0f0b",
-    linesOfCode: "100",
-    languages: "Python",
-    githubLink: "https://github.com/markstanl/Philosophical-Quotes",
   },
 ];
 

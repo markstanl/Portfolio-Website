@@ -10,11 +10,11 @@ import image5 from "./socrates.png";
 
 export default function ProjectsIndividual() {
   const [hoveredIndex, setHoveredIndex] = useState(null);
-  projectsText[1].hoverImage = image1;
-  projectsText[2].hoverImage = image2;
-  projectsText[3].hoverImage = image3;
-  projectsText[0].hoverImage = image4;
-  projectsText[4].hoverImage = image5;
+  projectsText[2].hoverImage = image1;
+  projectsText[3].hoverImage = image2;
+  projectsText[4].hoverImage = image3;
+  projectsText[1].hoverImage = image4;
+  projectsText[0].hoverImage = image5;
 
   return (
     <div>
